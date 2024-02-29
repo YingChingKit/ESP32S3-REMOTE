@@ -10,7 +10,6 @@ import serial
 import serial.tools.list_ports
 
 from ansiEncoding import ANSI
-from tkAnsiFormatter import tkAnsiFormatter
 from tkPlotGraph import tkPlotGraph
 from tkTerminal import tkTerminal
 
