@@ -1,6 +1,6 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.portWin": "COM9",
+  "idf.portWin": "COM5",
   "idf.adapterTargetName": "esp32s3",
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
@@ -47,7 +47,7 @@
     "*.tcc": "c",
     "xiosbase": "c"
   },
-  "idf.port": "/dev/ttyACM0",
+  "idf.port": "/dev/ttyUSB0",
   "cmake.configureOnOpen": false,
   "cSpell.words": [
     "ATTEN",
@@ -59,10 +59,12 @@
     "columnspan",
     "Consolas",
     "crossedout",
+    "EEPROM",
     "errdis",
     "ESPNOW",
     "figsize",
     "GPIO",
+    "ifidx",
     "Lacc",
     "lastseen",
     "lastsent",
@@ -70,6 +72,7 @@
     "Lpwm",
     "Lspd",
     "MACSTR",
+    "MCPWM",
     "overlined",
     "pinmask",
     "Racc",
